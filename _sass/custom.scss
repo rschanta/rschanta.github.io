@@ -1,0 +1,32 @@
+.sidebar {
+  background-color: #FFFFFF;
+}
+
+body, html {
+  background-color: #FFFFFF !important;
+}
+
+/* === Top Navigation Bar Styling === */
+
+/* === Force Full Blue Nav Bar === */
+.masthead,
+.masthead * {
+  background-color: #005f99 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Optional: style nav links */
+.greedy-nav a {
+  color: white !important;
+}
+
+/* Hover Text */
+.greedy-nav a:hover {
+  color: #ffcc00 !important;
+}
+
+/* Add subtle bottom border under nav bar */
+.masthead {
+  border-bottom: 2px solid #004d80 !important; // Dark blue line
+}
