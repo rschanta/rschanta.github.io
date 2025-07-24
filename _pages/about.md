@@ -18,6 +18,6 @@ I am a coastal engineer with a background in civil and environmental engineering
 
 
 ## Educational Background
-- **B.S Civil Engineering** (Cornell University, 2023):  concentration in Fluid Mechanics/Hydrology/Water Resources Engineering and minor in Environmental Engineering. 
-- **M.C.E Civil Engineering** (University of Delaware, 2025): concentration in Coastal Engineering. Thesis focused on applying machine learning algorithms to build surrogate models for wave statistics from FUNWAVE-TVD outputs. 
-- **Ph.D. Civil Engineering** (Univesity of Washington, current role): focusing on coastal engineering with the Derakhti Lab in Environmental Fluid Mechanics
+- **B.S. Civil Engineering** (Cornell University, 2023):  concentration in Fluid Mechanics/Hydrology/Water Resources Engineering and minor in Environmental Engineering. 
+- **M.C.E. Civil Engineering** (University of Delaware, 2025): concentration in Coastal Engineering. Thesis focused on applying machine learning algorithms to build surrogate models for wave statistics from FUNWAVE-TVD outputs. 
+- **PhD Civil Engineering** (Univesity of Washington, current role): focusing on coastal engineering with the Derakhti Lab in Environmental Fluid Mechanics
