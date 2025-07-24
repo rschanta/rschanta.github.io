@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
-
 group :jekyll_plugins do
   gem 'jekyll'
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
   gem 'jekyll-redirect-from'
+  gem 'tzinfo', '~> 2.0'
+  gem 'tzinfo-data'
   gem 'jemoji'
   gem 'webrick', '~> 1.8'
 end
