@@ -7,7 +7,7 @@ redirect_from:
   - /markdown.html
 ---
 
-{% include toc %}
+{% include toc.html %}
 
 ## Locations of key files/directories
 

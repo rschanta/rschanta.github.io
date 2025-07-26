@@ -30,3 +30,194 @@ body, html {
 .masthead {
   border-bottom: 2px solid #004d80 !important; // Dark blue line
 }
+
+
+/* === Equation Block === */
+.equation-block {
+  background-color: #f8f9fa;
+  border-left: 4px solid #007acc;
+  padding: 1em;
+  margin: 1.5em 0;
+  font-size: 0.85em;
+}
+
+
+/* === Warning Block === */
+.warning-block {
+  background-color: #f8f9fa;
+  border-left: 4px solid #cc2900;
+  padding: 1em;
+  margin: 1.5em 0;
+  font-size: 0.85em;
+}
+
+
+
+.link-card {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0.75em 1em;
+  margin: 0.5em 0;
+  transition: background 0.2s;
+}
+
+.link-card:hover {
+  background: #e8e8e8;
+}
+
+.link-card a {
+  text-decoration: none;
+  font-weight: bold;  /* bold text */
+  color: #333;
+}
+
+
+.toc-sidebar {
+  position: fixed;
+  top: 100px;
+  left: 30px;
+  width: 250px;
+  background: #f8f9fa;
+  padding: 1em;
+  border: 1px solid #ccc;
+  font-size: 0.9em;
+  z-index: 999;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.toc-sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.toc-sidebar li {
+  margin-bottom: 0.5em;
+}
+.toc-sidebar h3 {
+  margin-top: 0;
+}
+.page {
+  margin-left: 320px;
+}
+
+
+.back-box {
+  display: inline-block;
+  background-color: #f1f1f1;
+  padding: 0.75em 1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95em;
+  line-height: 1.4;
+  margin: 1em 0;
+  max-width: 200px;
+}
+
+.back-box .back-label {
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 0.2em;
+}
+
+.back-box .back-link a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.back-box .back-link a:hover {
+  text-decoration: underline;
+}
+
+
+.forward-box {
+  display: inline-block;
+  background-color: #f1f1f1;
+  padding: 0.75em 1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95em;
+  line-height: 1.4;
+  margin: 1em 0;
+  width: fit-content;         /* <== shrink to fit content */
+  text-align: right;  /* <-- key difference */
+}
+
+.forward-box .forward-label {
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 0.2em;
+}
+
+.forward-box .forward-link a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.forward-box .forward-link a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* NAV BOX */
+.nav-box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1em;
+  margin: 1em 0;
+  flex-wrap: wrap;
+}
+
+.back-box,
+.forward-box {
+  background-color: #f1f1f1;
+  padding: 0.5em 0.75em;   /* reduced padding */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9em;        /* slightly smaller font */
+  line-height: 1.2;        /* tighter line spacing */
+  width: fit-content;         /* <== shrink to fit content */
+  max-width: 240px;
+}
+
+.back-box .back-label,
+.forward-box .forward-label {
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 0.1em;    /* tighter label spacing */
+}
+
+.back-box .back-link a,
+.forward-box .forward-link a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.back-box .back-link a:hover,
+.forward-box .forward-link a:hover {
+  text-decoration: underline;
+}
+
+.center-box {
+  align-self: center;
+  background-color: #0077b6;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  font-size: 0.9em;
+  font-weight: bold;  /* <-- Add this line */
+  white-space: nowrap;
+}
+
+.center-box a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;  /* <-- Add this line */
+}
+
+.center-box a:hover {
+  text-decoration: underline;
+}

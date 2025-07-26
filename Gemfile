@@ -3,6 +3,7 @@ group :jekyll_plugins do
   gem 'jekyll'
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
+  gem 'jekyll-scholar'
   gem 'jekyll-redirect-from'
   gem 'tzinfo', '~> 2.0'
   gem 'tzinfo-data'
