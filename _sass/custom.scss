@@ -228,11 +228,11 @@ html, body {
   color: black !important;
 }
 
-a {
-  color: #007acc !important;
-}
-
 [data-theme="dark"] {
   background-color: white !important;
   color: black !important;
+}
+
+a {
+  color: inherit;
 }
