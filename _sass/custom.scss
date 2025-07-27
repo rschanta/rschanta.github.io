@@ -221,3 +221,18 @@ body, html {
 .center-box a:hover {
   text-decoration: underline;
 }
+
+/* === LIGHT MODE === */
+html, body {
+  background-color: white !important;
+  color: black !important;
+}
+
+a {
+  color: #007acc !important;
+}
+
+[data-theme="dark"] {
+  background-color: white !important;
+  color: black !important;
+}
