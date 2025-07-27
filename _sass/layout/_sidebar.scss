@@ -58,6 +58,21 @@
   }
 }
 
+/* NEW: TOC Sidebar behavior */
+.toc-sidebar {
+  width: 100%;
+  margin-bottom: 1.5em;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+
+  @include breakpoint($large) {
+    float: left;
+    width: 20%;
+    margin-right: 2em;
+    position: relative;
+  }
+}
 
 .sidebar__right {
   margin-bottom: 1em;
