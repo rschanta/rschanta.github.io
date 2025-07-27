@@ -261,3 +261,31 @@
     }
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    float: none !important;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+
+  .page {
+    float: none;
+    clear: both;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 1rem;
+    display: block;
+  }
+
+  .page__inner-wrap,
+  .page__content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
