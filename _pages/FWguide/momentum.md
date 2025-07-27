@@ -15,7 +15,7 @@ dependencies.
 
 
 <div class="equation-block">
-  <strong>Definition of A and B</strong><br>
+  <strong>Definition of $A$ and $B$</strong><br>
 $$
 \begin{aligned}
 A &\equiv \nabla_H \cdot (h \mathbf{u_\alpha}) \\
@@ -27,3 +27,9 @@ where both $A$ and $B$ contain a time dependency due to $\mathbf{u_\alpha}$, and
 </div>
 
 ## Substitution into Euler Equations
+With all the variables solved for and simplified, all that remains is plugging them into the Euler Equations. Here, we will use just the horizontal Euler Equations and solve term by term as indicated. Note that the vorticity term $\mathcal{V}$ is quite complicated and will be addressed later.
+
+
+$$
+\underbrace{\frac{\partial \mathbf{u}}{\partial t}}_{(1)} + \underbrace{\nabla_H (\mathbf{u} \cdot \mathbf{u})}_{(2)} + \underbrace{\frac{\partial}{\partial z} (\tfrac{1}{2}w \cdot w)}_{(3)} + \underbrace{\mathbf{\Omega} \times \mathbf{q}}_{\mathcal{V}} + \underbrace{\tfrac{1}{2}\nabla_H p}_{(4)} = 0 
+$$
