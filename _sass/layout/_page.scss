@@ -425,3 +425,12 @@
     margin-right: auto;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .page {
+    @include span(12 of 12);
+    @include prefix(0);
+    @include suffix(0);
+    padding: 0 1em;
+  }
+}
